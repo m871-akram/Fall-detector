@@ -1,4 +1,4 @@
-# 🛡️ Arduino Fall Detector (Personal Project)
+# 🛡️ Arduino Fall Detector 
 
 A wearable **fall detection system** built using an **Arduino Uno**, an **accelerometer (MPU6050 or ADXL345)**, and simple alert mechanisms (buzzer + LED).  
 
