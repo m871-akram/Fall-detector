@@ -1,12 +1,10 @@
-# 🛡️ Arduino Fall Detector 
+#  Arduino Fall Detector 
 
 A wearable **fall detection system** built using an **Arduino Uno**, an **accelerometer (MPU6050 or ADXL345)**, and simple alert mechanisms (buzzer + LED).  
 
-This project is part of my personal learning journey with Arduino and sensors. The system can detect sudden falls by analyzing acceleration patterns and trigger an alarm.
+This project is part of my personal learning journey with Arduino and sensors. The system can detect sudden falls by analyzing acceleration patterns and trigger an alarm :
 
----
 
-## 📌 Features
 - Detects **free fall + impact** using accelerometer data  
 - Triggers a **buzzer and LED** alert when a fall is detected  
 - Serial Monitor output for debugging and calibration  
@@ -14,7 +12,7 @@ This project is part of my personal learning journey with Arduino and sensors. T
 
 ---
 
-## 🛠️ Components Required
+##  Required
 - Arduino Uno (from Arduino Starter Kit)  
 - MPU6050 / ADXL345 accelerometer (from DFRobot Gravity sensor set)  
 - 1x Buzzer  
@@ -24,7 +22,7 @@ This project is part of my personal learning journey with Arduino and sensors. T
 
 ---
 
-## ⚡ How It Works
+##  How It Works
 A fall typically consists of:
 1. **Free fall** → acceleration magnitude drops close to **0g**  
 2. **Impact** → acceleration spikes above **2g**  
@@ -37,7 +35,7 @@ The algorithm monitors acceleration magnitude:
 
 ---
 
-## 🔌 Circuit Diagram
+##  Circuit Diagram
 Below is the Fritzing-style circuit wiring:
 
 - **Accelerometer (MPU6050 / ADXL345)**
